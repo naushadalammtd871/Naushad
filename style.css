@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Buttermilk;
+    src: url(./Buttermilk.woff2);
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ html, body{
     height: 100vh;
     width: 100%;
     background-color: #000;
-    background-image: url(naushad.jpg.jpg);
+    background-image: url(./naushad.webp);
     background-position: center;
     background-size: cover;
 }
