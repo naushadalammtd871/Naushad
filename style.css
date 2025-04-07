@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(naushad.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#main h2{
+    font-size: 8vw;
+    color: #ffffffce;
+    font-family: Buttermilk;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
